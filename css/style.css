@@ -1,0 +1,40 @@
+:root{
+    --primary-color: rgb(105, 105, 105);
+    --second-color: rgb(61, 61, 61);
+    --text-color: rgb(216, 216, 216);
+    --smooth-hover: rgb(255, 255, 255);
+    --third-color: rgba(253, 253, 253, 0.171);
+    --color-error: rgba(199, 2, 2, 0.74);
+    --color-success: rgba(35, 177, 0, 0.74);
+}
+
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+    background: linear-gradient(90deg, rgba(9,41,50,1) 5%, rgba(46,47,117,1) 50%, rgba(140,140,140,1) 100%);
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+

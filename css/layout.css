@@ -1,0 +1,22 @@
+.container-app{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 5vh 0 5vh 0;
+}
+
+.form-section{
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

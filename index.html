@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphabetical Sort</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/result.css">
+    <link rel="stylesheet" href="./css/dinamics.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-app">
+        <section class="form-section">
+            <form id="form" action="" class="container-form">
+                <label for="wordsInput">Alphabetical sort</label>
+                <textarea name="wordsInput" id="wordsInput" placeholder="Put the words separated by commas ( , ) and/or spaces."></textarea>
+
+                <div class="form-btns">
+                    <select id="typeSort">
+                        <option value="A-Z">A - Z</span></option>
+                        <option value="Z-A">Z - A</option>
+                    </select>
+                    <button id="btnSubmitForm">Sort</button>
+                    <svg id="microphone" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" clip-rule="evenodd"></path></svg>
+                </div>
+            </form>
+        </section>
+        <section class="result-section">
+            <main class="container-result">
+                <!-- <label for="result">Your result</label> -->
+                <textarea id="result" type="text" readonly></textarea>
+            </main>
+        </section>
+    </div>
+
+    <script src="scripts/speechAPI.js" type="module"></script>
+    <script src="scripts/validateForm.js" type="module"></script>
+</body>
+</html>

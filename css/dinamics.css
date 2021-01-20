@@ -1,0 +1,32 @@
+/* Boton desabilitado y microfono grabando (formulario)  */
+.btnDisabled{
+    cursor: not-allowed !important;
+    background-color: var(--third-color) !important;
+}
+
+.listening-voice{
+    color: var(--color-error) !important;
+}
+
+.msgConfidenceExist{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+/* Alerta mensajes (formulario) */
+.errorMsg, .successMsg{
+    padding: 2.3rem;
+    margin: 1rem 0 1rem 0;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    border: 5px solid rgba(0, 0, 0, .3);
+
+    color:  var(--text-color);
+}
+
+.errorMsg{
+    background-color: var(--color-error);
+}
+.successMsg{
+    background-color: var(--color-success);
+}

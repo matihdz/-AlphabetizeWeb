@@ -1,11 +1,11 @@
 .container-form{
     width: 80rem;
-    padding: 2.5rem;
+    padding: 0 2.5rem;
     position: relative;
 
     background-color: rgba(0, 0, 0, .15);
     background-size: 150%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    box-shadow: 0 0 4px rgba(75, 75, 75, 0.794);
     color: var(--text-color);
     border-radius: 30px;
 
@@ -19,7 +19,7 @@
 .container-form label{
     color: var(--text-color);
     text-shadow: 0 0 3px rgba(255, 255, 255, 0.5);
-    margin-bottom: 3rem;
+    margin: 1.5rem 0 1.5rem 0;
     font-size: 3rem;
 }
 .container-form textarea{
@@ -110,15 +110,24 @@
 
 @media screen and (max-width: 865px) {
     html{
-        font-size: 50%;
+        font-size: 60%;
+    }
+    .container-form{
+        border-radius: 0;
+        width: 100%;
+        height: 40vh;
+        box-shadow: none;
     }
 }
 @media screen and (max-width: 600px) {
     html{
-        font-size: 40%;
+        font-size: 50%;
     }
 }
 @media screen and (max-width: 400px) {
+    html{
+        font-size: 40%;
+    }
     .form-btns select{
         position: unset;
         margin-right: 1rem;

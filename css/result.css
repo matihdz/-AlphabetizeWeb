@@ -10,7 +10,7 @@
     background-color: rgba(0, 0, 0, .15);
     background-size: 150%;
     border-radius: 2px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    box-shadow: 0 0 4px rgba(75, 75, 75, 0.794);
 }
 
 .container-result label{
@@ -39,4 +39,18 @@
     resize: none;
 
     color: var(--text-color);
+}
+
+@media screen and (max-width: 865px) {
+    .container-result{
+        border-radius: 0;
+        margin: 0;
+        width: 100%;
+        height: 60vh;
+        padding: 0 5rem;
+        box-shadow: none;
+    }
+    .container-result textarea{
+        height: 80%;
+    }
 }
